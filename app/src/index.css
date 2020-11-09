@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapOptions {
+  overflow: auto;
+  min-width: 700px;
+}
+
+.container {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown {
+  display:inline-block;
+}
+
+nav {
+  background-color:#006666;
+}
+
+img {
+  background-color:#006666;
+  display: block;
+  margin: auto;
+  width: 12.5%;
+}

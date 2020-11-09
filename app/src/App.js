@@ -68,10 +68,10 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Navbar color="dark" dark expand="md">
+        <Navbar expand="md">
           <Media middle src="http://order.chefhero.com/static/chefhero/images/chefhero_logo_white.png" ></Media>
         </Navbar>
-        <Container fluid>
+        <Container>
           <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
             <DropdownToggle caret>
               All Suppliers
@@ -84,8 +84,10 @@ class App extends Component {
             </DropdownMenu>
           </Dropdown>
 
-          <Button color="primary" onClick={this.handleChange}>Save Book Info</Button>
+          <Button color="dark" onClick={this.handleChange}>x Reset Filters</Button>
 
+        </Container>
+        <Container>
           <Table className="mt-2">
             <thead>
               <tr>
